@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(237, 237, 237);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.price {
+  font-size: 24px;
+  color: rgb(52, 171, 52);
+}
+.product h3 {
+  font-size: 24px;
+}
+/* header styling starts */
+header {
+  background-color: #daeed9;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+}
+/* header styling ends here */
+/* navigator section start here */
+.navigator ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.navigator ul li {
+  list-style: none;
+}
+.navigator ul li a {
+  text-decoration: none;
+  color: green;
+}
+/* navigator styling ends here */
+/* section one styling starts here  */
+
+section {
+  width: 1200px;
+  margin: auto;
+}
+.sectionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.product {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  border-radius: 10px;
+}
+.product img {
+  width: 90%;
+  margin-top: 5%;
+  border-radius: 6px;
+}
+.product2 img {
+  height: 40%;
+  object-fit: cover;
+}
+/* section One styling ends here */
+/* section two styling starts here */
+/* section two styling ends here */
+/* section three styling starts here */
+aside {
+  width: 100%;
+  height: 400px;
+}
+/* section three ends here */
+/* footer styling starts here */
+footer {
+  margin-top: 150px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+
+  background-color: green;
+  color: white;
+  text-align: center;
+}
