@@ -1,0 +1,15 @@
+main {
+  flex-direction: column;
+  width: 900px;
+  line-height: 2;
+}
+main .template {
+  width: 100%;
+}
+
+.mainContainer {
+  gap: 20px;
+}
+.submitbtn {
+  padding: 10px 20px;
+}
