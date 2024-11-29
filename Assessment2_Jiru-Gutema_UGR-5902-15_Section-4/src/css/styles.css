@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #222922;
+  color: white;
+  padding: 5px 0;
+}
+header span {
+  color: #dd7536;
+}
+header .container {
+  width: 1200px;
+  margin: auto;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+}
+
+header .textContainer {
+  display: inline-block;
+}
+
+.box {
+  display: inline-block;
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+}
+header .slogan {
+  text-align: end;
+  margin-top: 20px;
+}
+header .slogan p {
+  font-size: 24px;
+  margin: 0;
+}
+header nav {
+  margin-top: 80px;
+}
+header nav ul {
+  margin-top: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+header nav ul li {
+  background-color: #9cc31d;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav ul li:hover {
+  background-color: #c48c48;
+}
+.mainContainer {
+  width: 1200px;
+  margin: auto;
+  gap: 10px;
+  display: flex;
+}
+.mainContainer main img {
+  width: 100%;
+  object-fit: contain;
+}
+.innerImageContainer {
+  height: 130px;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+.imageContainer {
+  height: 135px;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid rgb(196, 193, 193);
+  padding: 5px;
+}
+main {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+main div {
+  width: 45%;
+}
+
+section h2 {
+  font-size: 35px;
+  color: rgb(157, 182, 14);
+}
+aside ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside h4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+aside p {
+  margin-top: 5px;
+  padding-top: 0;
+}
+aside nav > ul {
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+aside nav {
+  padding: 0;
+}
+.sponsors {
+  margin: 0;
+  padding-left: 0;
+}
+.sponsors {
+  margin: 0;
+  padding-left: 0;
+}
+.template p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+main .template a,
+.contact a,
+.about a {
+  color: #9cc31d;
+}
+main .template .readMore {
+  color: #dd7536;
+}
+
+/* footer */
+footer {
+  background-color: #222922;
+  color: white;
+  line-height: 1.8;
+}
+.footerContainer {
+  width: 65%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  margin: auto;
+  gap: 20px;
+}
+.GalleryImageContainer {
+  display: grid;
+  gap: 5px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+.gallery .image {
+  width: 100px;
+  height: 100px;
+
+  object-fit: contain;
+}
+.footerContainer .image img {
+  width: 100%;
+  height: 100%;
+}
+.contact ul {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 10px;
+  padding-left: 0;
+}
+
+.imageAndTextContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageAndTextContainer .image {
+  width: 100px;
+  height: 100px;
+}
+.imageAndTextContainer p {
+  float: right;
+}
+.contact span {
+  font-weight: bold;
+}
+.copyright {
+  background-color: #333333;
+  padding: 15px 0;
+}
+.left p {
+  color: white;
+}
+.copyright > div {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+}
+.copyright nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.copyright nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.copyright nav ul li:hover a {
+  color: #9cc31d;
+}
+.left p a {
+  color: #9cc31d;
+}
